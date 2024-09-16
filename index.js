@@ -1,4 +1,4 @@
 document.getElementById("btn").addEventListener("click", () => {
-  const videoURL= "https://tnplayer4993-a43329ca83d5.herokuapp.com/39694/%2540TamilMob_LinkZz%2B%2B-%2BVisfot%2B%25282024%2529%2BWEB-DL%2B-%2B1080p%2B-%2BAVC%2B-%2B%2528AA.mkv?hash=AgAD7R";
+  const videoURL= "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8";
   window.location.href = `intent:${videoURL}#Intent;package=com.sumit.player;action=android.intent.action.VIEW;type=video/*;end`;
 });

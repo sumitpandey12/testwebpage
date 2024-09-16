@@ -1,4 +1,4 @@
 document.getElementById("btn").addEventListener("click", () => {
-  const videoURL= "https://f2l-dl-1b2e058a42f6.herokuapp.com/171767/%40TamilMob_LinkZz++-+Visfot+%282024%29+WEB-DL+-+1080p+-+AVC+-+%28AA.mkv?hash=AgAD7R";
+  const videoURL= "https://tnplayer4993-a43329ca83d5.herokuapp.com/39694/%2540TamilMob_LinkZz%2B%2B-%2BVisfot%2B%25282024%2529%2BWEB-DL%2B-%2B1080p%2B-%2BAVC%2B-%2B%2528AA.mkv?hash=AgAD7R";
   window.location.href = `intent:${videoURL}#Intent;package=com.sumit.player;action=android.intent.action.VIEW;type=video/*;end`;
 });

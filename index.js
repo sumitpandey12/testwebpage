@@ -3,6 +3,8 @@
 //   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`;
 // });
 
+const vURL='https://tnplayer4993-a43329ca83d5.herokuapp.com/59434/Valliyin_Velan_S01E20_Valliyin_Velan_September_27_2024_360p_ZEE5.mkv?hash=AgAD4h'
+
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "http://tnplayer4993-a43329ca83d5.herokuapp.com/39694/%2540TamilMob_LinkZz%2B%2B-%2BVisfot%2B%25282024%2529%2BWEB-DL%2B-%2B1080p%2B-%2BAVC%2B-%2B%2528AA.mkv?alies=0CSKk";
    window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;end`;

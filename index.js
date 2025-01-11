@@ -8,7 +8,7 @@ const vURL='https://tnplayer4993-a43329ca83d5.herokuapp.com/59434/Valliyin_Velan
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "https://tnplayer.com/EAXFm";
    // window.location.href = `intent:https://tnplayer.com/EAXFm#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;end`;
-	 window.location.href = "intent:https://tnplayer.com/EAXFm#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end", '_blank';
+	 window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
 });
 
 document.getElementById("btn1").addEventListener("click", () => {

@@ -3,7 +3,7 @@
 //   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`;
 // });
 
-const vURL='https://tnplayer4993-a43329ca83d5.herokuapp.com/59434/Valliyin_Velan_S01E20_Valliyin_Velan_September_27_2024_360p_ZEE5.mkv'
+const vURL='https://pub-b867598499504e3a9d1fc63c090b6cf2.r2.dev/Love%20Next%20Door%20EP.10.v2.480p.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "https://tnplayer.com/EAXFm";

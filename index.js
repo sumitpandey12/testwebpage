@@ -19,3 +19,8 @@ document.getElementById("btn2").addEventListener("click", () => {
   const videoURL= `${vURL}?api=af9359286a557911b6989d43009b37bb`;
    window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
 });
+
+document.getElementById("btn3").addEventListener("click", () => {
+  const videoURL= "https://tnplayer.com/app/EAXFm";
+   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
+});

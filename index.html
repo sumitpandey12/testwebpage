@@ -25,7 +25,14 @@
       <p>const videoURLwithKey= `${videoURL}?api=af9359286a557911b6989d43009b37bb`;</p>
       <p>window.location.href = `intent:${videoURLwithKey}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank'</p>
       <button id="btn2">Using VideoURL and API KEY</button>
-    </div>    
+    </div> 
+
+    <div>
+      <h3>Intent 3: Direct Video</h3>
+      <p>const videoURLwithKey= `${videoURL}`;</p>
+      <p>window.location.href = `intent:${videoURLwithKey}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank'</p>
+      <button id="btn3">Using VideoURL</button>
+    </div> 
     <script src="index.js"></script>
   </body>
 </html>

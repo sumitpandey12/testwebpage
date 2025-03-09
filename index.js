@@ -21,6 +21,7 @@ document.getElementById("btn2").addEventListener("click", () => {
 });
 
 document.getElementById("btn3").addEventListener("click", () => {
-  const videoURL= "https://tnplayer.com/app/EAXFm";
-   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
+  const videoURL = "https://tnplayer.in/app/EAXFm";  // Corrected URL: .in, not .com
+  // Corrected intent format and MOST IMPORTANTLY, added the scheme
+  window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;scheme=https;end`;
 });

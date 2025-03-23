@@ -3,7 +3,7 @@
 //   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`;
 // });
 
-const vURL='https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+const vURL='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "https://tnplayer.com/EAXFm";

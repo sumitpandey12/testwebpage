@@ -3,7 +3,7 @@
 //   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`;
 // });
 
-const vURL='https://pub-b867598499504e3a9d1fc63c090b6cf2.r2.dev/Love%20Next%20Door%20EP.10.v2.480p.mp4'
+const vURL='https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "https://tnplayer.com/EAXFm";

@@ -6,7 +6,7 @@
 const vURL='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
-  const videoURL= "https://tnplayer.com/Z2dbx";
+  const videoURL= "https://tnplayer.com/EAXFm";
    window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
 });
 

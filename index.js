@@ -6,7 +6,7 @@
 const vURL='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
-  const videoURL= "https://tnplayer.com/EAXFm";
+  const videoURL= "https://tnplayer.com/Z2dbx";
    window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
 });
 
@@ -21,7 +21,7 @@ document.getElementById("btn2").addEventListener("click", () => {
 });
 
 document.getElementById("btn3").addEventListener("click", () => {
-  const videoURL = "https://tnplayer.com/app/EAXFm";  // Corrected URL: .in, not .com
+  const videoURL = "https://tnplayer.com/app/Z2dbx";  // Corrected URL: .in, not .com
   // Corrected intent format and MOST IMPORTANTLY, added the scheme
   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`, '_blank';
 });

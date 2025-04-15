@@ -3,7 +3,7 @@
 //   window.location.href = `intent:${videoURL}#Intent;package=com.qp.jplayer;action=android.intent.action.VIEW;type=video/*;end`;
 // });
 
-const vURL='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
+const vURL='https://tnupload.com/The%20US%20market%20has%20its%20best%20week%20since%20the%20end%20of%20January.%20%E2%80%93%20Finance%20Yogi%20-%20Google%20Chrome%202023-05-12%2009-04-04.mp4'
 
 document.getElementById("btn").addEventListener("click", () => {
   const videoURL= "https://tnplayer.com/EAXFm";
